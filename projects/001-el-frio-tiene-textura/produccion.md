@@ -2,7 +2,7 @@
 
 ## Estado
 
-Primera prueba exploratoria generada el 20 de octubre de 2026. Pendiente de revisión conjunta con Matías. No incorporada al sitio como obra final.
+Tres pruebas exploratorias generadas el 20 de octubre de 2026. La segunda se conserva como base de composición; ninguna se considera obra final ni se incorporó al sitio.
 
 ## Herramienta
 
@@ -48,3 +48,40 @@ La luz lateral vuelve visible el relieve. Una textura nítida no basta: la forma
 ## Selección final
 
 Pendiente. No se generaron las otras imágenes de la serie.
+
+
+## Prueba 002 · Forma de servido
+
+- Herramienta: generador integrado de ChatGPT.
+- Referencia: imagen de la prueba 001.
+- Archivo devuelto: `exec-4c96905a-b702-4732-8d04-ad41b56b7e94.png`, visible en la conversación.
+- Variable dirigida: altura y morfología de la porción.
+- Resultado observado: silueta más baja y dos pliegues amplios. La textura seca y fragmentada persiste. Se conserva como base, no como entrega final.
+- Coste: no informado por la herramienta. Sin consumo de Magnific.
+
+### Prompt completo
+
+```text
+Edit the supplied raspberry gelato photograph for controlled comparison. Change ONLY the serving morphology: reduce the height of the gelato mound by approximately 35 percent, forming a believable modest portion served with a gelato spade, with two broad supple folds rather than a tall jagged mountain. Less fragmented jagged tips and torn edges; retain the same fine frozen texture and existing material character. Preserve the exact same shallow matte white ceramic bowl, bowl size, position, intact full rim, viewpoint, crop, warm-white background, raspberry color, upper-left directional soft light, contact shadow, sharpness and photographic treatment. The camera must not move or zoom. No new objects, text, fruit garnish, spoon, steam, frost, additional bowls or hands. No perfect scoops, melted puddle or plastic appearance. High quality editorial food photography. Vertical 4:5, one image.
+```
+
+## Prueba 003 · Superficie
+
+- Herramienta: generador integrado de ChatGPT.
+- Referencia: imagen de la prueba 002.
+- Archivo devuelto: `exec-6c302930-7075-4b99-bb2f-3a085b2f13fc.png`, visible en la conversación.
+- Variable dirigida: superficie, buscando reducir sequedad y fragmentación.
+- Resultado observado: geometría general conservada, pero aparecen marcas finas repetitivas sobre la superficie. El cambio no demuestra una mejora clara de naturalidad. No se selecciona como versión final.
+- Coste: no informado por la herramienta. Sin consumo de Magnific.
+
+### Prompt completo
+
+```text
+Edit this supplied raspberry gelato food photograph. Controlled iteration: change ONLY the surface texture of the gelato, preserving its current low mound and two broad serving folds. Make the surface look freshly served, dense and supple: reduce brittle dry crumbles and thread-like scraped ridges, with smoother coherent spade-swept planes that retain fine natural frozen grain. Keep irregularity believable. Add only a very restrained natural satin sheen on a few fold edges, not gloss, wet sauce or melting. The material must look cold and edible, not sculpted clay, plastic, mousse or fibrous paste. Preserve the exact composition, crop, camera, low serving height, shallow white ceramic bowl geometry, raspberry color, warm off-white background, upper-left soft directional light and soft shadow. No new objects, toppings, text, fruit, frost, steam, water droplets or puddles. No smooth perfect spheres. Vertical 4:5 editorial food photograph, one image.
+```
+
+## Decisión después de tres pruebas
+
+Conservar la composición de la prueba 002. Detener la edición en cadena: las microtexturas no están convergiendo. Para una siguiente prueba de material, usar una referencia fotográfica de helado real o reformular la generación desde una ficha de textura más precisa. No seguir sumando adjetivos al mismo resultado.
+
+El aprendizaje verificable es la separación entre forma de servido y superficie. La primera mejoró; la segunda sigue sin resolverse. Las imágenes permanecen como pruebas, fuera de la galería publicada.
