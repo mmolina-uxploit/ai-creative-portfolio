@@ -4,9 +4,9 @@ Portfolio de imágenes, videos y campañas con inteligencia artificial. Este rep
 
 ## Estado
 
-Base inicial. Todavía no hay piezas finales: las portadas del sitio son muestras de diseño.
+Primer estudio incorporado: «El frío tiene textura», versión 002. Se presenta como trabajo en desarrollo, con textura pendiente. Todavía no hay piezas finales.
 
-El sitio actual se conserva en `site/index.html`. La versión alojada en Sites tiene su propio repositorio; este repositorio de GitHub no está conectado a su despliegue automático.
+El sitio actual se conserva en `site/index.html`. Netlify está conectado a este repositorio y publica la carpeta `site/` desde `main`; la configuración se encuentra en `netlify.toml`. La copia anterior alojada en Sites tiene su propio repositorio y no se sincroniza automáticamente con GitHub.
 
 ## Abrir el sitio
 

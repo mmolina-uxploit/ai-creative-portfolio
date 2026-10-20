@@ -2,7 +2,7 @@
 
 ## Estado
 
-Tres pruebas exploratorias generadas el 20 de octubre de 2026. La segunda se conserva como base de composición; ninguna se considera obra final ni se incorporó al sitio.
+Tres pruebas exploratorias generadas el 20 de octubre de 2026. La segunda se conserva como base de composición; ninguna se considera obra final. La segunda se incorpora al sitio como estudio en desarrollo.
 
 ## Herramienta
 
@@ -20,7 +20,7 @@ No se utilizaron imágenes externas como referencia. Esta primera prueba explora
 - Archivo devuelto: `exec-a2d52fb5-01ff-43ce-9f25-9f8a0f532413.png`, visible en la conversación.
 - Estado: exploración; sin selección final.
 - Autoría: concepto y producción asistidos por IA. La intervención y evaluación de Matías se incorporarán después de su revisión.
-- El archivo no está incluido en este repositorio ni publicado en la galería.
+- La primera prueba no está incluida en la galería.
 
 ### Prompt completo
 
@@ -84,4 +84,9 @@ Edit this supplied raspberry gelato food photograph. Controlled iteration: chang
 
 Conservar la composición de la prueba 002. Detener la edición en cadena: las microtexturas no están convergiendo. Para una siguiente prueba de material, usar una referencia fotográfica de helado real o reformular la generación desde una ficha de textura más precisa. No seguir sumando adjetivos al mismo resultado.
 
-El aprendizaje verificable es la separación entre forma de servido y superficie. La primera mejoró; la segunda sigue sin resolverse. Las imágenes permanecen como pruebas, fuera de la galería publicada.
+El aprendizaje verificable es la separación entre forma de servido y superficie. La primera mejoró; la segunda sigue sin resolverse. La segunda imagen se publica como estudio en desarrollo; la primera y la tercera permanecen fuera de la galería.
+
+
+## Incorporación al portfolio
+
+Por indicación de Matías, la prueba 002 se incorpora como estudio en desarrollo, sin presentarla como pieza final. Derivado web: `site/assets/projects/el-frio-tiene-textura-v02.webp`, 1122 × 1402 px. Conversión a WebP para la web, sin recorte ni cambio de dimensiones. La ficha presenta concepto, decisión de servido, origen de la imagen y textura pendiente. El despliegue se gestiona desde Netlify con la rama main.
