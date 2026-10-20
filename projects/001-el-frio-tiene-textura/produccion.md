@@ -47,7 +47,7 @@ La luz lateral vuelve visible el relieve. Una textura nítida no basta: la forma
 
 ## Selección final
 
-Pendiente. No se generaron las otras imágenes de la serie.
+Pendiente. Se generaron las otras dos tomas de la serie como estudios de encuadre y continuidad; ver ampliación.
 
 
 ## Prueba 002 · Forma de servido
@@ -90,3 +90,34 @@ El aprendizaje verificable es la separación entre forma de servido y superficie
 ## Incorporación al portfolio
 
 Por indicación de Matías, la prueba 002 se incorpora como estudio en desarrollo, sin presentarla como pieza final. Derivado web: `site/assets/projects/el-frio-tiene-textura-v02.webp`, 1122 × 1402 px. Conversión a WebP para la web, sin recorte ni cambio de dimensiones. La ficha presenta concepto, decisión de servido, origen de la imagen y textura pendiente. El despliegue se gestiona desde Netlify con la rama main.
+
+
+## Ampliación de la serie · 20 de octubre de 2026
+
+Dos nuevas imágenes generadas con ChatGPT usando la prueba 002 como referencia visual. Sin generaciones ni consumo de créditos en Magnific.
+
+### Toma de detalle
+
+- Archivo web: `site/assets/projects/el-frio-tiene-textura-detalle-v01.webp`.
+- Imagen de origen: `exec-9fd86725-e9da-4e95-b507-6e294b158964.png`.
+- Propósito: dirigir el foco hacia el relieve mediante un plano muy cercano y profundidad de campo reducida.
+- Evaluación inicial: mantiene color y pliegues reconocibles. El macro también expone las irregularidades de material que siguen pendientes; no acredita fidelidad a helado real.
+
+```text
+Create the second photograph in an editorial raspberry gelato series. Use the supplied image as the exact product and material reference: same raspberry gelato, same low broad spade-served folds, same matte white shallow bowl, same warm-white background and soft upper-left directional light. Change the camera framing to a deliberate extreme close-up macro detail of one broad gelato fold and its rounded lip. The gelato surface fills most of the frame, a small softly defocused curved sliver of the white bowl visible along the bottom right to anchor the scale, no full bowl. Shallow depth of field: one crisp diagonal ridge with surrounding folds falling gently out of focus. Preserve raspberry-red color and physically believable frozen grain. Do not exaggerate repeated fibrous scratches or brittle crystalline detail. Dense fresh gelato, softly satin, tiny local wet highlight along a single edge, no melting puddle. Restrained sensory food editorial, premium photography, natural optical detail. No fruit, seeds as garnish, utensils, text, logos, smoke or added objects. Portrait 4:5. Output one new photograph, not a collage. This is a conceptual production study, not a real client campaign.
+```
+
+### Toma de contexto
+
+- Archivo web: `site/assets/projects/el-frio-tiene-textura-contexto-v01.webp`.
+- Imagen de origen: `exec-22fd12d9-a6a8-49be-82bc-2fd227bbc25b.png`.
+- Propósito: situar el producto sobre un mostrador de heladería conservando su identidad visual.
+- Evaluación inicial: cuenco y color reconocibles, contacto y reflejo sobre acero coherentes. La pila de cuencos aporta contexto; la locación es ficticia.
+
+```text
+Create the third photograph in an editorial raspberry gelato series. The supplied photograph is the product reference: keep the same raspberry-red gelato, low modest portion with two broad spade-served folds, and the same shallow matte ivory-white ceramic bowl with its smooth curved rim. New scene: a quiet contemporary artisanal gelateria at opening time. The bowl sits alone on a clean brushed stainless-steel service counter; pale warm-grey wall behind, a softly out-of-focus short stack of identical empty ivory bowls at the far rear left provides just enough context. No readable signs, no brand, no people. Main bowl fully visible and clearly dominant, in the lower middle third, shot from slightly above its rim with a normal-to-short-telephoto editorial lens; leave ample breathing room above. Soft morning window light enters from the left, coherent soft contact shadow and restrained brushed-metal reflection under the bowl. Palette restrained warm white and pale steel grey with raspberry red as the only saturated accent. The gelato must look dense, frozen, freshly served and edible; no exaggerated brittle shards, no plastic or fibrous material, no puddles. Real high-quality food-location photograph, not CGI, no flying ingredients, fruit garnish, spoons, typography, decorative props or overt spectacle. Keep identity and color of reference product while changing its setting. Portrait 4:5. One image.
+```
+
+### Publicación y aprendizaje
+
+Se incorporan ambas tomas a la ficha ampliada del portfolio como parte del estudio en desarrollo. Derivados WebP sin recorte ni cambio de dimensiones. Las tres tomas cumplen funciones diferentes: identificar el producto, acercar la textura y situarlo en un espacio. La textura sigue pendiente de una referencia real. El proyecto no se declara finalizado.
