@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "id": "001-el-frio-tiene-textura",
+      "filePrefix": "el-frio-tiene-textura",
+      "name": "El frío tiene textura",
+      "subtitle": "Gastronomía · Proyecto personal · En desarrollo",
+      "summary": "Tres encuadres para una misma idea: producto, detalle y contexto. Un estudio de luz, servido y continuidad visual.",
+      "concept": "Hacer perceptible el frío a través de la superficie del helado.",
+      "decision": "La luz lateral hace visibles los pliegues. La segunda prueba reduce la altura del servido y conserva el encuadre y el cuenco.",
+      "pending": "La forma de servido está mejor resuelta. La textura sigue pendiente de contraste con una fotografía de helado real.",
+      "origin": "Serie generada con ChatGPT. Sin cliente ni resultados comerciales asociados.",
+      "assets": {
+        "el-frio-tiene-textura-v02.webp": {
+          "role": "Producto",
+          "order": 1,
+          "alt": "Helado de frambuesa servido en un cuenco blanco, con luz lateral y fondo claro."
+        },
+        "el-frio-tiene-textura-detalle-v01.webp": {
+          "role": "Detalle",
+          "order": 2,
+          "alt": "Detalle de los pliegues del helado de frambuesa."
+        },
+        "el-frio-tiene-textura-contexto-v01.webp": {
+          "role": "Contexto",
+          "order": 3,
+          "alt": "Helado de frambuesa en un mostrador de heladería conceptual."
+        }
+      }
+    }
+  ]
+}

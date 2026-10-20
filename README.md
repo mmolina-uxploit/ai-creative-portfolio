@@ -8,6 +8,12 @@ Primer estudio incorporado: «El frío tiene textura», versión 002. Se present
 
 El sitio actual se conserva en `site/index.html`. Netlify está conectado a este repositorio y publica la carpeta `site/` desde `main`; la configuración se encuentra en `netlify.toml`. La copia anterior alojada en Sites tiene su propio repositorio y no se sincroniza automáticamente con GitHub.
 
+## Incorporación de creativos
+
+La galería carga `site/assets/portfolio.json`. Netlify lo reconstruye en cada despliegue con `node scripts/build-portfolio.mjs`, detectando los archivos de `site/assets/projects/`. Cada creativo aparece en la página principal, sin modificar el HTML.
+
+Para agregar un archivo, usar `scripts/import-creative.mjs`. Ver [el flujo completo de publicación](docs/publicacion-creativos.md). El envío al repo lo realiza el asistente durante la producción; no hay un observador de generaciones externas.
+
 ## Abrir el sitio
 
 Requiere Python 3. Desde la raíz:
