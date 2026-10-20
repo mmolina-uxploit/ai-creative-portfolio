@@ -1,0 +1,17 @@
+# Sistema y entorno
+.DS_Store
+.env
+.env.*
+!.env.example
+__pycache__/
+node_modules/
+
+# Fuentes pesadas y descartes locales
+projects/**/source/
+projects/**/renders/
+projects/**/scratch/
+*.psd
+*.psb
+*.aep
+*.prproj
+*.mov
