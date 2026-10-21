@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jolly-fenglisu-690f97.netlify.app/sitemap.xml

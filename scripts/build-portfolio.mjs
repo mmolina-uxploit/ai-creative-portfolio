@@ -24,3 +24,6 @@ const output={version:1,creatives:media.map(({projectOrder,...item})=>item)};
 await mkdir(path.join(root,'site/assets'),{recursive:true});
 await writeFile(path.join(root,'site/assets/portfolio.json'),JSON.stringify(output,null,2)+'\n');
 console.log('Portfolio: '+media.length+' creativos indexados.');
+const {renderSite}=await import('./render-site.mjs');
+await renderSite(root,output.creatives);
+console.log('HTML semántico, datos estructurados y sitemap generados.');
