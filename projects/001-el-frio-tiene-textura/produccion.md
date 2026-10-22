@@ -152,3 +152,7 @@ Scene: one low warm-white ceramic bowl on a pale desaturated blue-grey matte tab
 Composition: premium close product portrait, camera three-quarter view slightly above bowl rim, 70–85mm food photography feel. Bowl fully inside the frame, generous but purposeful breathing room above, subject fills approximately 70% of image width. Show front bowl surface, elliptical rim and real contact shadow. Critical focus on the front gelato fold; gentle depth falloff but entire food mass legible.
 Lighting: directional diffused window light from upper left, enough side contrast to describe texture, cool soft shadows to right and subtle bounce fill. Neutral color on the gelato and warm white ceramic, fine photographic tonal transitions, no blown highlights. Photographic realism over stylization. Output one finished image only.
 ```
+
+## Retiro de pruebas anteriores · 22 de octubre de 2026
+
+Por indicación de Matías, se quitaron los tres derivados anteriores (`v02`, `detalle-v01`, `contexto-v01`) del repositorio y de la carpeta publicada. Sus registros de producción se conservan como historial; la única imagen vigente es `el-frio-tiene-textura-reinicio-v01.webp`.

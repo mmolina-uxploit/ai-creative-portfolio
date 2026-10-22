@@ -11,24 +11,6 @@
       "pending": "Primera prueba de la nueva dirección. Revisar la abundancia del servido antes de producir detalle y contexto.",
       "origin": "Imagen generada con ChatGPT a partir de referencias visuales. Proyecto personal conceptual, sin cliente ni resultados comerciales asociados.",
       "assets": {
-        "el-frio-tiene-textura-v02.webp": {
-          "role": "Producto",
-          "order": 1,
-          "alt": "Helado de frambuesa servido en un cuenco blanco, con luz lateral y fondo claro.",
-          "publish": false
-        },
-        "el-frio-tiene-textura-detalle-v01.webp": {
-          "role": "Detalle",
-          "order": 2,
-          "alt": "Detalle de los pliegues del helado de frambuesa.",
-          "publish": false
-        },
-        "el-frio-tiene-textura-contexto-v01.webp": {
-          "role": "Contexto",
-          "order": 3,
-          "alt": "Helado de frambuesa en un mostrador de heladería conceptual.",
-          "publish": false
-        },
         "el-frio-tiene-textura-reinicio-v01.webp": {
           "role": "Producto",
           "order": 1,

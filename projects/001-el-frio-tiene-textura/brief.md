@@ -19,4 +19,4 @@ Color y textura: referencia de frambuesa y macro. Recipiente: cuenco. Luz y cont
 
 La primera prueba tiene un servido más abundante de lo previsto. Revisar esa proporción antes de extender la serie. El producto debe conservar una superficie comestible, geometría continua y sombra de apoyo, sin rayado repetitivo ni apariencia de plástico.
 
-Después de resolver la protagonista, producir detalle y contexto a partir de ella para sostener la continuidad. Las versiones anteriores quedan archivadas fuera de la selección pública.
+Después de resolver la protagonista, producir detalle y contexto a partir de ella para sostener la continuidad. Las tres pruebas anteriores se retiraron del repositorio y de la publicación; el historial de Git conserva sus versiones.
