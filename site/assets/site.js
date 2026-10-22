@@ -13,7 +13,7 @@ viewer.addEventListener('click',e=>{if(e.target!==viewer)return;const r=viewer.g
 // Filters become useful only once both formats exist.
 const filters=document.getElementById('filters');
 if(items.some(x=>x.type==='video')&&items.some(x=>x.type==='image')){filters.hidden=false;filters.querySelectorAll('button').forEach(button=>button.addEventListener('click',()=>{filters.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));document.querySelectorAll('[data-creative]').forEach(link=>{const item=items.find(x=>x.id===link.dataset.creative);link.closest('figure').hidden=button.dataset.filter!=='all'&&item.type!==button.dataset.filter});document.querySelectorAll('.project').forEach(project=>{project.hidden=![...project.querySelectorAll('figure')].some(figure=>!figure.hidden)})}))}
-const counter=document.getElementById('catalog-count');counter.hidden=false;const n=new Set(items.map(x=>x.projectId)).size;counter.textContent=n+' '+(n===1?'estudio':'estudios')+' · '+items.length+' piezas';
+const counter=document.getElementById('catalog-count');counter.hidden=false;const n=new Set(items.map(x=>x.projectId)).size;counter.textContent=n+' '+(n===1?'estudio':'estudios')+' · '+items.length+' '+(items.length===1?'pieza':'piezas');
 // Motion never hides content, captures scrolling or animates the images themselves.
 const toggle=document.getElementById('motion-toggle'),preference=matchMedia('(prefers-reduced-motion: reduce)');let context=null,reduced=false;
 try{reduced=localStorage.getItem('portfolio-reduce-motion')==='true'}catch{}
