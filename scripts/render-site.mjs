@@ -3,7 +3,7 @@ import path from 'node:path';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const json=x=>JSON.stringify(x).replace(/</g,'\\u003c');
 export async function renderSite(root,creatives){
- const base='https://ia-crearive-portfolio-matiasmolina.netlify.app/';
+ const base='https://ia-creatuve-portfolio-matiasmolina.netlify.app/';
  const groups=Map.groupBy?Map.groupBy(creatives,x=>x.projectId):creatives.reduce((m,x)=>m.set(x.projectId,[...(m.get(x.projectId)||[]),x]),new Map());
  let number=0;
  const catalog=[...groups.entries()].map(([id,series])=>{
