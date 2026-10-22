@@ -121,3 +121,34 @@ Create the third photograph in an editorial raspberry gelato series. The supplie
 ### Publicación y aprendizaje
 
 Se incorporan ambas tomas a la ficha ampliada del portfolio como parte del estudio en desarrollo. Derivados WebP sin recorte ni cambio de dimensiones. Las tres tomas cumplen funciones diferentes: identificar el producto, acercar la textura y situarlo en un espacio. La textura sigue pendiente de una referencia real. El proyecto no se declara finalizado.
+
+
+## Reinicio con referencias · 22 de octubre de 2026
+
+Se inicia una nueva dirección a pedido de Matías. Las tres pruebas anteriores se conservan y se excluyen del catálogo mediante `publish: false`.
+
+### Lectura de referencias
+
+1. Helado real de frambuesa en primer plano: referencia de rojo y planos de espátula; origen y autenticidad no verificados.
+2. Macro de helado recién servido: pliegues irregulares y pequeños poros; se descarta su color salmón.
+3. Porción en un cuenco blanco bajo: geometría cerámica y escala; se descartan cuchara, trozos de fruta y bolas uniformes.
+4. Fotografía gastronómica con luz lateral suave: luz direccional y contraste frío; no se trasladan tabla, menta ni frutos decorativos.
+5. Mostrador de heladería con luz natural: muestra cubetas y utensilios, no una vista amplia del local; se reserva para la futura toma de contexto, sin copiar carteles o marcas.
+
+Las cuatro primeras se proporcionaron al generador. No se publican los archivos de referencia en la web.
+
+### Primera toma del reinicio
+
+Herramienta: image_gen integrado de ChatGPT. Original preservado: generated_images/exec-529d7b88-4502-44b9-bec8-7a102267d6aa.png (1122 × 1402 px). Derivado web: site/assets/projects/el-frio-tiene-textura-reinicio-v01.webp, WebP calidad 90 sin recorte ni cambio de tamaño.
+
+Evaluación: imagen completa, borde del cuenco continuo, sombra de apoyo y textura con superficies lisas y bordes irregulares. El servido quedó más abundante que el objetivo inicial. Se publica como estudio en desarrollo; todavía no se producen las otras dos tomas.
+
+### Prompt de generación
+
+```text
+Use case: ads-marketing. Create ONE new photorealistic editorial food photograph, portrait 4:5, a new hero image for the conceptual portfolio project "El frío tiene textura". No typography, no logos. The four supplied images are references only, not a collage and not edit targets.
+REFERENCE ROLES in given order: 1 raspberry gelato macro: use its muted deep raspberry red and natural fine grain, broad spatula marks, NOT pink dairy cherry ice cream; 2 lighter macro: use only the irregular broad soft folds, tiny air pockets and moist cut edges, NOT its salmon color; 3 bowl with scoops: use only its believable ceramic bowl geometry and food scale, make the bowl lower and plain warm white; ignore the spoon, fruit chunks and spherical scoops; 4 side lit food shot: use the cool blue-grey setting and window-light direction, but simplify completely, no wood board, mint, berries or other props.
+Scene: one low warm-white ceramic bowl on a pale desaturated blue-grey matte tabletop with an uninterrupted matching softly graded backdrop. A modest fresh serving of deep raspberry red artisanal gelato sits just above the rim: two or three broad overlapping hand-served spatula folds, slightly asymmetrical. It must be dense, cold and soft, not piped frosting, not a tall sculptural swirl, no ball-shaped scoops. Broad smooth scraped planes alternate with slightly rough broken edges and occasional tiny natural pores. Very restrained moisture at thin edges, no melting puddle, no repeated scratch pattern, no spikes, no exaggerated grain.
+Composition: premium close product portrait, camera three-quarter view slightly above bowl rim, 70–85mm food photography feel. Bowl fully inside the frame, generous but purposeful breathing room above, subject fills approximately 70% of image width. Show front bowl surface, elliptical rim and real contact shadow. Critical focus on the front gelato fold; gentle depth falloff but entire food mass legible.
+Lighting: directional diffused window light from upper left, enough side contrast to describe texture, cool soft shadows to right and subtle bounce fill. Neutral color on the gelato and warm white ceramic, fine photographic tonal transitions, no blown highlights. Photographic realism over stylization. Output one finished image only.
+```

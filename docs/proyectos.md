@@ -17,6 +17,6 @@ La pieza cumple su brief y no tiene defectos críticos visibles. Matías puede e
 
 ## Estado actual
 
-001: brief preparado. Generación pendiente.
+001: reiniciado el 22 de octubre de 2026 con referencias aportadas por Matías. Primera toma nueva publicada como estudio en desarrollo; las tres pruebas anteriores permanecen archivadas. Revisar proporción del servido antes de producir detalle y contexto.
 
 002 a 006: conceptos iniciales. Sus briefs se escriben al llegar a cada etapa.

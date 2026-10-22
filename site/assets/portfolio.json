@@ -2,52 +2,20 @@
   "version": 1,
   "creatives": [
     {
-      "id": "el-frio-tiene-textura-v02.webp",
+      "id": "el-frio-tiene-textura-reinicio-v01.webp",
       "projectId": "001-el-frio-tiene-textura",
       "name": "El frío tiene textura",
       "role": "Producto",
       "type": "image",
-      "src": "assets/projects/el-frio-tiene-textura-v02.webp",
-      "alt": "Helado de frambuesa servido en un cuenco blanco, con luz lateral y fondo claro.",
+      "src": "assets/projects/el-frio-tiene-textura-reinicio-v01.webp",
+      "alt": "Helado rojo frambuesa con pliegues de espátula en un cuenco blanco, sobre fondo azul grisáceo y con luz lateral.",
       "order": 1,
       "subtitle": "Gastronomía · Proyecto personal · En desarrollo",
-      "summary": "Tres encuadres para una misma idea: producto, detalle y contexto. Un estudio de luz, servido y continuidad visual.",
-      "concept": "Hacer perceptible el frío a través de la superficie del helado.",
-      "decision": "La luz lateral hace visibles los pliegues. La segunda prueba reduce la altura del servido y conserva el encuadre y el cuenco.",
-      "pending": "La forma de servido está mejor resuelta. La textura sigue pendiente de contraste con una fotografía de helado real.",
-      "origin": "Serie generada con ChatGPT. Sin cliente ni resultados comerciales asociados."
-    },
-    {
-      "id": "el-frio-tiene-textura-detalle-v01.webp",
-      "projectId": "001-el-frio-tiene-textura",
-      "name": "El frío tiene textura",
-      "role": "Detalle",
-      "type": "image",
-      "src": "assets/projects/el-frio-tiene-textura-detalle-v01.webp",
-      "alt": "Detalle de los pliegues del helado de frambuesa.",
-      "order": 2,
-      "subtitle": "Gastronomía · Proyecto personal · En desarrollo",
-      "summary": "Tres encuadres para una misma idea: producto, detalle y contexto. Un estudio de luz, servido y continuidad visual.",
-      "concept": "Hacer perceptible el frío a través de la superficie del helado.",
-      "decision": "La luz lateral hace visibles los pliegues. La segunda prueba reduce la altura del servido y conserva el encuadre y el cuenco.",
-      "pending": "La forma de servido está mejor resuelta. La textura sigue pendiente de contraste con una fotografía de helado real.",
-      "origin": "Serie generada con ChatGPT. Sin cliente ni resultados comerciales asociados."
-    },
-    {
-      "id": "el-frio-tiene-textura-contexto-v01.webp",
-      "projectId": "001-el-frio-tiene-textura",
-      "name": "El frío tiene textura",
-      "role": "Contexto",
-      "type": "image",
-      "src": "assets/projects/el-frio-tiene-textura-contexto-v01.webp",
-      "alt": "Helado de frambuesa en un mostrador de heladería conceptual.",
-      "order": 3,
-      "subtitle": "Gastronomía · Proyecto personal · En desarrollo",
-      "summary": "Tres encuadres para una misma idea: producto, detalle y contexto. Un estudio de luz, servido y continuidad visual.",
-      "concept": "Hacer perceptible el frío a través de la superficie del helado.",
-      "decision": "La luz lateral hace visibles los pliegues. La segunda prueba reduce la altura del servido y conserva el encuadre y el cuenco.",
-      "pending": "La forma de servido está mejor resuelta. La textura sigue pendiente de contraste con una fotografía de helado real.",
-      "origin": "Serie generada con ChatGPT. Sin cliente ni resultados comerciales asociados."
+      "summary": "Nueva exploración de helado de frambuesa: pliegues de espátula, luz lateral y contraste sobre un fondo azul grisáceo.",
+      "concept": "Hacer que la textura del helado sea el centro de la imagen.",
+      "decision": "El rojo frambuesa y los pliegues se construyen a partir de referencias aportadas por Matías. La luz lateral describe el relieve y el fondo frío separa el producto.",
+      "pending": "Primera prueba de la nueva dirección. Revisar la abundancia del servido antes de producir detalle y contexto.",
+      "origin": "Imagen generada con ChatGPT a partir de referencias visuales. Proyecto personal conceptual, sin cliente ni resultados comerciales asociados."
     }
   ]
 }

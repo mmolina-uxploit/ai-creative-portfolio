@@ -5,26 +5,35 @@
       "filePrefix": "el-frio-tiene-textura",
       "name": "El frío tiene textura",
       "subtitle": "Gastronomía · Proyecto personal · En desarrollo",
-      "summary": "Tres encuadres para una misma idea: producto, detalle y contexto. Un estudio de luz, servido y continuidad visual.",
-      "concept": "Hacer perceptible el frío a través de la superficie del helado.",
-      "decision": "La luz lateral hace visibles los pliegues. La segunda prueba reduce la altura del servido y conserva el encuadre y el cuenco.",
-      "pending": "La forma de servido está mejor resuelta. La textura sigue pendiente de contraste con una fotografía de helado real.",
-      "origin": "Serie generada con ChatGPT. Sin cliente ni resultados comerciales asociados.",
+      "summary": "Nueva exploración de helado de frambuesa: pliegues de espátula, luz lateral y contraste sobre un fondo azul grisáceo.",
+      "concept": "Hacer que la textura del helado sea el centro de la imagen.",
+      "decision": "El rojo frambuesa y los pliegues se construyen a partir de referencias aportadas por Matías. La luz lateral describe el relieve y el fondo frío separa el producto.",
+      "pending": "Primera prueba de la nueva dirección. Revisar la abundancia del servido antes de producir detalle y contexto.",
+      "origin": "Imagen generada con ChatGPT a partir de referencias visuales. Proyecto personal conceptual, sin cliente ni resultados comerciales asociados.",
       "assets": {
         "el-frio-tiene-textura-v02.webp": {
           "role": "Producto",
           "order": 1,
-          "alt": "Helado de frambuesa servido en un cuenco blanco, con luz lateral y fondo claro."
+          "alt": "Helado de frambuesa servido en un cuenco blanco, con luz lateral y fondo claro.",
+          "publish": false
         },
         "el-frio-tiene-textura-detalle-v01.webp": {
           "role": "Detalle",
           "order": 2,
-          "alt": "Detalle de los pliegues del helado de frambuesa."
+          "alt": "Detalle de los pliegues del helado de frambuesa.",
+          "publish": false
         },
         "el-frio-tiene-textura-contexto-v01.webp": {
           "role": "Contexto",
           "order": 3,
-          "alt": "Helado de frambuesa en un mostrador de heladería conceptual."
+          "alt": "Helado de frambuesa en un mostrador de heladería conceptual.",
+          "publish": false
+        },
+        "el-frio-tiene-textura-reinicio-v01.webp": {
+          "role": "Producto",
+          "order": 1,
+          "publish": true,
+          "alt": "Helado rojo frambuesa con pliegues de espátula en un cuenco blanco, sobre fondo azul grisáceo y con luz lateral."
         }
       }
     }
