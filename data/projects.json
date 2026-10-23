@@ -18,6 +18,38 @@
           "alt": "Helado rojo frambuesa con pliegues de espátula en un cuenco blanco, sobre fondo azul grisáceo y con luz lateral."
         }
       }
+    },
+    {
+      "id": "002-una-prenda-tres-vidas",
+      "filePrefix": "una-prenda-tres-vidas",
+      "name": "Una prenda. Tres vidas.",
+      "subtitle": "Indumentaria · Proyecto personal · En desarrollo",
+      "summary": "La misma campera acompaña tres momentos: el viaje, una pausa de trabajo y la noche.",
+      "concept": "Mostrar la versatilidad de una prenda manteniendo reconocibles al personaje y al conjunto.",
+      "decision": "La referencia principal fija el rostro, la campera y sus capas. Cambian el lugar, la distancia de cámara y la luz; la primera escena generada también guía la continuidad de las siguientes.",
+      "pending": "Serie inicial. Ajustar la continuidad fina de solapas, cordones y escala de los bolsillos antes de una versión final.",
+      "origin": "Tres imágenes generadas con ChatGPT a partir de seis referencias aportadas por Matías. Proyecto personal conceptual, sin cliente ni resultados comerciales asociados.",
+      "assets": {
+        "una-prenda-tres-vidas-viaje-v01.webp": {
+          "role": "Viaje",
+          "order": 1,
+          "publish": true,
+          "alt": "Hombre con campera verde oliva y jeans grises, apoyado en una columna de estación con un libro abierto."
+        },
+        "una-prenda-tres-vidas-trabajo-v01.webp": {
+          "role": "Trabajo",
+          "order": 2,
+          "publish": true,
+          "alt": "El mismo personaje con campera verde oliva, sentado junto a una ventana de café frente a una computadora portátil."
+        },
+        "una-prenda-tres-vidas-noche-v01.webp": {
+          "role": "Noche",
+          "order": 3,
+          "publish": true,
+          "alt": "Retrato nocturno del mismo personaje con campera verde oliva y jeans grises, rodeado de luces urbanas desenfocadas."
+        }
+      }
     }
   ]
 }
+
