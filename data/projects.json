@@ -5,17 +5,23 @@
       "filePrefix": "el-frio-tiene-textura",
       "name": "El frío tiene textura",
       "subtitle": "Gastronomía · Proyecto personal · En desarrollo",
-      "summary": "Una imagen que busca despertar una sensación antes de explicar un producto. Trabajé el helado de frambuesa desde sus pliegues, el contraste de color y una luz que hace visible la textura.",
+      "summary": "Una serie que busca despertar una sensación antes de explicar un producto. Trabajé el helado de frambuesa desde sus pliegues, el contraste de color y una luz que hace visible la textura.",
       "concept": "Quise que la textura fuera lo primero que se percibe: las marcas de la espátula, el relieve y la densidad del helado.",
       "decision": "Elegí luz lateral para revelar los pliegues y un fondo azul grisáceo para destacar el rojo frambuesa.",
-      "pending": "Primera imagen de una serie en desarrollo. Las próximas piezas exploran el detalle y el contexto.",
-      "origin": "Generé la imagen con IA a partir de referencias de helado real que seleccioné para orientar el color, la textura y el servido.",
+      "pending": "Dos imágenes de una serie en desarrollo: producto y detalle. La próxima pieza sitúa el helado en contexto.",
+      "origin": "Generé las imágenes con IA a partir de referencias de helado real que seleccioné para orientar el color, la textura y el servido. Usé la imagen de producto como referencia para el macro.",
       "assets": {
         "el-frio-tiene-textura-reinicio-v01.webp": {
           "role": "Producto",
           "order": 1,
           "publish": true,
           "alt": "Helado rojo frambuesa con pliegues de espátula en un cuenco blanco, sobre fondo azul grisáceo y con luz lateral."
+        },
+        "el-frio-tiene-textura-macro-v01.webp": {
+          "role": "Detalle",
+          "order": 2,
+          "publish": true,
+          "alt": "Macro de helado de frambuesa con marcas de espátula y pliegues iluminados desde la izquierda, con el borde de un cuenco blanco."
         }
       }
     },
