@@ -14,8 +14,8 @@
       "summary": "Una serie que busca despertar una sensación antes de explicar un producto. Trabajé el helado de frambuesa desde sus pliegues, el contraste de color y una luz que hace visible la textura.",
       "concept": "Quise que la textura fuera lo primero que se percibe: las marcas de la espátula, el relieve y la densidad del helado.",
       "decision": "Elegí luz lateral para revelar los pliegues y un fondo azul grisáceo para destacar el rojo frambuesa.",
-      "pending": "Dos imágenes de una serie en desarrollo: producto y detalle. La próxima pieza sitúa el helado en contexto.",
-      "origin": "Generé las imágenes con IA a partir de referencias de helado real que seleccioné para orientar el color, la textura y el servido. Usé la imagen de producto como referencia para el macro."
+      "pending": "Serie inicial de tres imágenes: producto, detalle y contexto. En revisión final de continuidad visual.",
+      "origin": "Generé las imágenes con IA a partir de referencias de helado real que seleccioné para orientar el color, la textura y el servido. Usé la imagen de producto como referencia para el macro y la escena de heladería."
     },
     {
       "id": "el-frio-tiene-textura-macro-v01.webp",
@@ -30,8 +30,24 @@
       "summary": "Una serie que busca despertar una sensación antes de explicar un producto. Trabajé el helado de frambuesa desde sus pliegues, el contraste de color y una luz que hace visible la textura.",
       "concept": "Quise que la textura fuera lo primero que se percibe: las marcas de la espátula, el relieve y la densidad del helado.",
       "decision": "Elegí luz lateral para revelar los pliegues y un fondo azul grisáceo para destacar el rojo frambuesa.",
-      "pending": "Dos imágenes de una serie en desarrollo: producto y detalle. La próxima pieza sitúa el helado en contexto.",
-      "origin": "Generé las imágenes con IA a partir de referencias de helado real que seleccioné para orientar el color, la textura y el servido. Usé la imagen de producto como referencia para el macro."
+      "pending": "Serie inicial de tres imágenes: producto, detalle y contexto. En revisión final de continuidad visual.",
+      "origin": "Generé las imágenes con IA a partir de referencias de helado real que seleccioné para orientar el color, la textura y el servido. Usé la imagen de producto como referencia para el macro y la escena de heladería."
+    },
+    {
+      "id": "el-frio-tiene-textura-contexto-v01.webp",
+      "projectId": "001-el-frio-tiene-textura",
+      "name": "El frío tiene textura",
+      "role": "Contexto",
+      "type": "image",
+      "src": "assets/projects/el-frio-tiene-textura-contexto-v01.webp",
+      "alt": "Helado de frambuesa en un cuenco blanco sobre un mostrador azul grisáceo, con una vitrina de heladería al fondo y luz natural desde la izquierda.",
+      "order": 3,
+      "subtitle": "Gastronomía · Proyecto personal · En desarrollo",
+      "summary": "Una serie que busca despertar una sensación antes de explicar un producto. Trabajé el helado de frambuesa desde sus pliegues, el contraste de color y una luz que hace visible la textura.",
+      "concept": "Quise que la textura fuera lo primero que se percibe: las marcas de la espátula, el relieve y la densidad del helado.",
+      "decision": "Elegí luz lateral para revelar los pliegues y un fondo azul grisáceo para destacar el rojo frambuesa.",
+      "pending": "Serie inicial de tres imágenes: producto, detalle y contexto. En revisión final de continuidad visual.",
+      "origin": "Generé las imágenes con IA a partir de referencias de helado real que seleccioné para orientar el color, la textura y el servido. Usé la imagen de producto como referencia para el macro y la escena de heladería."
     },
     {
       "id": "una-prenda-tres-vidas-viaje-v01.webp",

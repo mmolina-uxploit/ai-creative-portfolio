@@ -8,8 +8,8 @@
       "summary": "Una serie que busca despertar una sensación antes de explicar un producto. Trabajé el helado de frambuesa desde sus pliegues, el contraste de color y una luz que hace visible la textura.",
       "concept": "Quise que la textura fuera lo primero que se percibe: las marcas de la espátula, el relieve y la densidad del helado.",
       "decision": "Elegí luz lateral para revelar los pliegues y un fondo azul grisáceo para destacar el rojo frambuesa.",
-      "pending": "Dos imágenes de una serie en desarrollo: producto y detalle. La próxima pieza sitúa el helado en contexto.",
-      "origin": "Generé las imágenes con IA a partir de referencias de helado real que seleccioné para orientar el color, la textura y el servido. Usé la imagen de producto como referencia para el macro.",
+      "pending": "Serie inicial de tres imágenes: producto, detalle y contexto. En revisión final de continuidad visual.",
+      "origin": "Generé las imágenes con IA a partir de referencias de helado real que seleccioné para orientar el color, la textura y el servido. Usé la imagen de producto como referencia para el macro y la escena de heladería.",
       "assets": {
         "el-frio-tiene-textura-reinicio-v01.webp": {
           "role": "Producto",
@@ -22,6 +22,12 @@
           "order": 2,
           "publish": true,
           "alt": "Macro de helado de frambuesa con marcas de espátula y pliegues iluminados desde la izquierda, con el borde de un cuenco blanco."
+        },
+        "el-frio-tiene-textura-contexto-v01.webp": {
+          "role": "Contexto",
+          "order": 3,
+          "publish": true,
+          "alt": "Helado de frambuesa en un cuenco blanco sobre un mostrador azul grisáceo, con una vitrina de heladería al fondo y luz natural desde la izquierda."
         }
       }
     },
@@ -58,4 +64,3 @@
     }
   ]
 }
-
