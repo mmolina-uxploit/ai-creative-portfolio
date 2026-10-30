@@ -18,3 +18,7 @@ a,button,summary{scroll-margin-block:24px}a:focus-visible,button:focus-visible,s
 @media(min-width:768px){
   [id="002-una-prenda-tres-vidas"] .project-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 }
+
+/* Compact project index; anchors remain usable without JavaScript. */
+.project-index{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.project-index a{display:inline-flex;align-items:center;justify-content:space-between;gap:16px;min-height:48px;padding:9px 16px;border:1px solid var(--line);border-radius:24px;font-size:14px}.project-index a:hover{border-color:var(--ink)}.project-index a span{color:var(--accent)}
+
