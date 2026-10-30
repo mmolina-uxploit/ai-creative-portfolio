@@ -10,3 +10,11 @@ a,button,summary{scroll-margin-block:24px}a:focus-visible,button:focus-visible,s
 @media(forced-colors:active){.button,.media-button,.motion-control{border:1px solid ButtonText}:focus-visible{outline-color:Highlight}}
 
 @media(max-width:767px){.hero{padding-block:24px}.section-heading{gap:8px}.project{margin-top:20px}.project-title{font-weight:500}}
+
+/* Three equally weighted scenes; retain the product-led layout of other projects. */
+[id="002-una-prenda-tres-vidas"] .project-grid{grid-template-columns:minmax(0,1fr)}
+[id="002-una-prenda-tres-vidas"] .creative:first-child{grid-column:auto}
+[id="002-una-prenda-tres-vidas"] .creative{margin-top:0}
+@media(min-width:768px){
+  [id="002-una-prenda-tres-vidas"] .project-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
