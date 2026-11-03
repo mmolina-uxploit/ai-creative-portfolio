@@ -6,7 +6,7 @@
 2. Incorporar el archivo al proyecto con el comando de importación.
 3. Revisar la imagen, el texto alternativo y su estado.
 4. Subir archivo y metadatos juntos a main.
-5. Netlify ejecuta el indexador y publica site/.
+5. Cloudflare ejecuta el indexador y publica site/.
 
 Cada imagen aparece directamente en la galería principal. Los filtros se calculan desde el catálogo; no se edita el HTML para agregar piezas.
 
@@ -32,7 +32,7 @@ node scripts/build-portfolio.mjs
 
 ## Alcance de la automatización
 
-Netlify indexa y despliega automáticamente los archivos incorporados al repo. No observa las generaciones de ChatGPT ni Magnific: el paso de importación y envío al repo lo ejecuta el asistente al producir contenido para este portfolio.
+Cloudflare indexa y despliega automáticamente los archivos incorporados al repo. No observa las generaciones de ChatGPT ni Magnific: el paso de importación y envío al repo lo ejecuta el asistente al producir contenido para este portfolio.
 
 Si la interfaz Git no dispone de autenticación, usar la conexión GitHub para crear los blobs, el árbol y el commit. Publicar el conjunto en una sola actualización de main con comprobación de la revisión esperada.
 

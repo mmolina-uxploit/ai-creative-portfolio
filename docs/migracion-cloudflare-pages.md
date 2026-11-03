@@ -1,8 +1,8 @@
-# Migración a Cloudflare Pages
+# Migración a Cloudflare
 
-Estado: preparación técnica. La conexión del repositorio al dashboard de Cloudflare requiere la cuenta de Matías; no puede ejecutarse de forma remota desde este entorno.
+Estado: completada. Cloudflare es la fuente de publicación oficial, en reemplazo de Netlify. El sitio se verificó cargando correctamente en `https://ai-creative-portfolio.mmolina-uxploit.workers.dev/`.
 
-## Configuración de build en Cloudflare Pages
+## Configuración de build en Cloudflare
 
 - Framework preset: None.
 - Comando de build: `node scripts/build-portfolio.mjs`
@@ -11,19 +11,19 @@ Estado: preparación técnica. La conexión del repositorio al dashboard de Clou
 
 ## Compatibilidad verificada
 
-- `site/_headers` y `site/_redirects` usan la sintaxis que Cloudflare Pages interpreta de forma nativa. No requieren cambios.
-- `netlify.toml` queda sin efecto en Cloudflare pero no interfiere; puede conservarse mientras ambos hosts coexistan.
+- `site/_headers` y `site/_redirects` usan la sintaxis que Cloudflare interpreta de forma nativa. No requirieron cambios.
+- `netlify.toml` se retiró del repositorio: ya no tenía efecto y describía un host que dejó de usarse.
 
-## Pendiente, deferido a propósito
+## URLs actualizadas
 
-El dominio `ia-creative-portfolio-matiasmolina.netlify.app` está escrito en:
+Se reemplazó `ia-creative-portfolio-matiasmolina.netlify.app` por `ai-creative-portfolio.mmolina-uxploit.workers.dev` en:
 
 - `site/index.html`: canonical, Open Graph, Twitter Card, JSON-LD (`@id` y `url` de Person, WebSite, CollectionPage).
-- `site/sitemap.xml`: único `<loc>`.
-- `site/robots.txt`: línea `Sitemap:`.
+- `site/sitemap.xml`.
+- `site/robots.txt`.
 
-Este reemplazo se posterga hasta fijar el dominio final en Cloudflare. Mientras no se actualice, el sitio funciona igual; solo las referencias SEO apuntarán al host anterior.
+Si más adelante se conecta un dominio propio sobre este mismo proyecto de Cloudflare, estas URLs deben volver a actualizarse.
 
-## Paso manual no delegable
+## Historial que no se reescribió
 
-Conectar el repositorio de GitHub al proyecto de Cloudflare Pages se hace desde el dashboard de Cloudflare, con la cuenta de Matías. Una vez conectado con la configuración de arriba, el primer deploy debería replicar el sitio actual sin ajustes adicionales.
+Los registros de producción fechados (`projects/*/produccion.md`) y la auditoría UX/UI (`docs/auditoria-ux-ui.md`) mencionan a Netlify como parte del estado vigente en el momento en que se escribieron. Se conservan sin cambios: son historial, no documentación de proceso actual.

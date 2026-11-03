@@ -9,19 +9,19 @@ El catálogo reúne dos proyectos personales y seis imágenes:
 - «El frío tiene textura»: producto, detalle y contexto de heladería.
 - «Una prenda. Tres vidas.»: viaje, trabajo y noche.
 
-Ambas series siguen en desarrollo. La heladería está en revisión de continuidad; la campera requiere ajustes de fidelidad de la prenda. Todavía no hay videos publicados. El titular actual del código es «Imágenes con IA. Con dirección.»; la publicación puede quedar atrasada si Netlify bloquea despliegues por cuota.
+Ambas series siguen en desarrollo. La heladería está en revisión de continuidad; la campera requiere ajustes de fidelidad de la prenda. Todavía no hay videos publicados. El titular actual del código es «Imágenes con IA. Con dirección.».
 
-El sitio actual se conserva en `site/index.html`. Netlify está conectado a este repositorio y publica la carpeta `site/` desde `main`; la configuración se encuentra en `netlify.toml`. La copia anterior alojada en Sites tiene su propio repositorio y no se sincroniza automáticamente con GitHub.
+El sitio actual se conserva en `site/index.html`. Cloudflare está conectado a este repositorio y publica la carpeta `site/` desde `main`, generada con `node scripts/build-portfolio.mjs`; la configuración de build se gestiona desde el dashboard de Cloudflare. La copia anterior alojada en Sites tiene su propio repositorio y no se sincroniza automáticamente con GitHub.
 
 ## Incorporación de creativos
 
-La galería se genera en el HTML inicial y usa `site/assets/portfolio.json` para las interacciones. Netlify lo reconstruye en cada despliegue con `node scripts/build-portfolio.mjs`, detectando los archivos de `site/assets/projects/`. Cada creativo aparece en la página principal, sin modificar el HTML.
+La galería se genera en el HTML inicial y usa `site/assets/portfolio.json` para las interacciones. Cloudflare lo reconstruye en cada despliegue con `node scripts/build-portfolio.mjs`, detectando los archivos de `site/assets/projects/`. Cada creativo aparece en la página principal, sin modificar el HTML.
 
 Para agregar un archivo, usar `scripts/import-creative.mjs`. Ver [el flujo completo de publicación](docs/publicacion-creativos.md). El envío al repo lo realiza el asistente durante la producción; no hay un observador de generaciones externas.
 
 ## Política de publicación
 
-Trabajar los ajustes en una rama de desarrollo y agruparlos en una versión revisada. Cada publicación exitosa en producción consume créditos en Netlify; no enviar cambios pequeños a `main` por separado. No confundir un commit en GitHub con un despliegue confirmado: verificar siempre la URL pública. Si la cuota está agotada, conservar los cambios pendientes sin repetir intentos de publicación.
+Trabajar los ajustes en una rama de desarrollo y agruparlos en una versión revisada; no enviar cambios pequeños a `main` por separado. No confundir un commit en GitHub con un despliegue confirmado: verificar siempre la URL pública.
 
 ## Abrir el sitio
 

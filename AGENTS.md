@@ -1,6 +1,6 @@
 # Trabajo en este portfolio
 
-El repositorio y Netlify son la fuente de publicación actual. La copia anterior de Sites no se sincroniza.
+El repositorio y Cloudflare son la fuente de publicación actual. La copia anterior de Sites no se sincroniza.
 
 ## Creativos generados
 
@@ -16,7 +16,7 @@ Cuando Matías solicite generar o incorporar contenido para este portfolio, comp
 - Comprobar JavaScript, catálogo y rutas de medios antes de actualizar main.
 - Verificar el despliegue o indicar que no pudo comprobarse.
 
-La subida automática a Netlify ocurre después del envío a main. Este archivo no crea un observador externo de generaciones.
+La subida automática a Cloudflare ocurre después del envío a main. Este archivo no crea un observador externo de generaciones.
 
 ## Sitio
 
