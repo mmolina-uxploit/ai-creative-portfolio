@@ -40,3 +40,22 @@ GSAP solo desplaza texto 5–8 px durante menos de un segundo. No oculta conteni
 Lectores de pantalla reales (VoiceOver/NVDA), zoom y espaciado personalizados, preferencias de sistema en dispositivos reales, toda la matriz WCAG AAA y mediciones de rendimiento en producción. El catálogo actual no contiene videos: cuando se incorporen, revisar subtítulos, transcripciones, audiodescripción y otros requisitos aplicables antes de declarar conformidad. La implementación actual no reemplaza esa evaluación.
 
 Referencias: https://www.w3.org/TR/WCAG22/ ; https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics ; https://gsap.com/docs/v3/GSAP/gsap.context/
+
+## Reauditoría semántica y de accesibilidad · 3 de noviembre de 2026
+
+Fuente: main de GitHub, publicación conectada a Cloudflare. Posterior a la incorporación de la tipografía Fraunces en encabezados y a la apertura por defecto del bloque de proceso.
+
+### Verificación automatizada
+
+axe-core 4.x corrido contra el HTML servido localmente (reglas WCAG 2.0 A/AA, 2.1 A/AA y buenas prácticas): 0 violaciones. 2 ítems marcados `incomplete` (requieren revisión manual, no son fallos confirmados):
+
+- `color-contrast` sobre el ícono de ampliar (`.enlarge`, `aria-hidden="true"`) y la flecha del botón del hero: el fondo es un disco translúcido sobre foto, axe no puede resolver el compuesto. Revisado a ojo recortando y ampliando el ícono sobre la imagen más oscura del catálogo: el trazo queda nítido. No es un requisito WCAG 1.4.11 estricto porque el ícono es decorativo (`aria-hidden`) y el enlace ya es reconocible como interactivo sin él.
+- `label-content-name-mismatch` sobre los `.media-button`: el nombre accesible viene de `aria-label` ("Ampliar producto de…") y no coincide con el `alt` de la imagen interior. Es el patrón correcto: el `aria-label` describe la acción del enlace, el `alt` describe el contenido de la imagen; son roles distintos a propósito.
+
+### Hallazgo corregido
+
+`.method{list-style:none}` quita las viñetas del `<ol>` de "Cómo trabajo". En Safari/VoiceOver eso suprime también los roles implícitos de lista y de ítem de lista — un bug documentado de WebKit, no una regla CSS inocua. Se agregó `role="list"` al `<ol class="method">` en `templates/index.html` para restituirlos. Es el único `<ul>`/`<ol>` del sitio; no hay otros casos.
+
+### Revisado y sin cambios
+
+Jerarquía de encabezados, landmarks (`header`, `nav` × 3 con nombres distintos, `main`, `section` con `aria-labelledby`, `footer`), salto al contenido, trampa de foco manual del visor (necesaria: `<dialog>` nativo no atrapa el foco de forma consistente entre navegadores), doble desactivación de movimiento (CSS `prefers-reduced-motion` + control persistente), enlaces externos anunciados, atributos `alt` descriptivos y sin relleno. Sin cambios de color: el contraste medido en la auditoría de octubre sigue vigente, la incorporación de Fraunces no tocó la paleta.
