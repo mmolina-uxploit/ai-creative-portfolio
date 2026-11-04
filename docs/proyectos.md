@@ -17,9 +17,9 @@ La pieza cumple su brief y no tiene defectos críticos visibles. Matías puede e
 
 ## Estado actual
 
-001: reiniciado el 22 de octubre de 2026 a partir de referencias seleccionadas. Serie completa de tres imágenes publicada (producto, detalle, contexto); las tres pruebas anteriores al reinicio se retiraron del repositorio. En revisión final de continuidad visual.
+001: reiniciado el 22 de octubre de 2026 a partir de referencias seleccionadas. Serie completa de tres imágenes (producto, detalle, contexto). Aprobada por Matías el 4 de noviembre de 2026 y publicada como versión final; las tres pruebas anteriores al reinicio se retiraron del repositorio.
 
-002: primera serie de tres imágenes generada el 23 de octubre de 2026: Viaje, Trabajo y Noche. En desarrollo; revisar continuidad fina de los detalles de la campera.
+002: primera serie de tres imágenes generada el 23 de octubre de 2026: Viaje, Trabajo y Noche. Aprobada por Matías el 4 de noviembre de 2026 y publicada como versión final.
 
 003 a 006: conceptos iniciales. Sus briefs se escriben al llegar a cada etapa.
 

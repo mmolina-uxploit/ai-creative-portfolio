@@ -9,7 +9,7 @@ El catálogo reúne dos proyectos personales y seis imágenes:
 - «El frío tiene textura»: producto, detalle y contexto de heladería.
 - «Una prenda. Tres vidas.»: viaje, trabajo y noche.
 
-Ambas series siguen en desarrollo. La heladería está en revisión de continuidad; la campera requiere ajustes de fidelidad de la prenda. Todavía no hay videos publicados. El titular actual del código es «Imágenes con IA. Con dirección.».
+Ambas series están aprobadas y publicadas como versión final. Todavía no hay videos publicados. El titular actual del código es «Imágenes con IA. Con dirección.».
 
 El sitio actual se conserva en `site/index.html`. Cloudflare está conectado a este repositorio y publica la carpeta `site/` desde `main`, generada con `node scripts/build-portfolio.mjs`; la configuración de build se gestiona desde el dashboard de Cloudflare. La copia anterior alojada en Sites tiene su propio repositorio y no se sincroniza automáticamente con GitHub.
 

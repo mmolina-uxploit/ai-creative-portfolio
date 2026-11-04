@@ -68,4 +68,8 @@ Input images: 1 ORIGINAL person and outfit (ultimate authority); 2 generated STA
 Scene 03 — Noche: the same man in the exact olive hooded cotton outer jacket, dark olive quilted inner zip jacket, white T-shirt and faded gray jeans stands on a sidewalk at night. Frame from head to mid-thigh, torso near frontal with a subtle three-quarter turn, head turned to camera-right, looking calmly off-frame. Both hands rest naturally in his jeans pockets below the jacket hem so the jacket chest pockets, dark buttons, hood, drawstrings and inner zipper are clearly visible. Same short close-cropped brown hair and clean-shaven angular face as images1/2; do not copy the long tousled hair from image5. Urban storefront lights and traffic produce soft warm round bokeh, with one restrained cooler light in the distance. Warm streetlight from above and to the side, subtle cool urban fill, richly graded but readable shadows. The olive cotton must remain matte olive fabric, never black leather or glossy fabric. Camera eye/chest level, intimate 85mm portrait feel, face and jacket sharp while background falls out of focus. Natural skin, no heavy beauty retouching, no exaggerated neon, no rain, no signs or text. One vertical 4:5 image, not a collage.
 ```
 
+## Aprobación · 4 de noviembre de 2026
+
+Matías aprobó la serie completa (viaje, trabajo, noche) como versión final, sin cambios sobre las tres imágenes vigentes. `data/projects.json` pasa de «En desarrollo» a «Finalizado». Las variaciones generativas en solapas, cordones y escala de bolsillos señaladas en la evaluación quedan aceptadas tal como están; no se reemplazan por la variante de corrección de bolsillos producida después, que sigue sin aprobar.
+
 

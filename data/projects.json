@@ -4,11 +4,11 @@
       "id": "001-el-frio-tiene-textura",
       "filePrefix": "el-frio-tiene-textura",
       "name": "El frío tiene textura",
-      "subtitle": "Gastronomía · Proyecto personal · En desarrollo",
+      "subtitle": "Gastronomía · Proyecto personal · Finalizado",
       "summary": "Una serie que busca despertar una sensación antes de explicar un producto. Trabajé el helado de frambuesa desde sus pliegues, el contraste de color y una luz que hace visible la textura.",
       "concept": "Quise que la textura fuera lo primero que se percibe: las marcas de la espátula, el relieve y la densidad del helado.",
       "decision": "Elegí luz lateral para revelar los pliegues y un fondo azul grisáceo para destacar el rojo frambuesa.",
-      "pending": "Serie inicial de tres imágenes: producto, detalle y contexto. En revisión final de continuidad visual.",
+      "pending": "Serie de tres imágenes: producto, detalle y contexto. Aprobada y publicada como versión final.",
       "origin": "Generé las imágenes con IA a partir de referencias de helado real que seleccioné para orientar el color, la textura y el servido. Usé la imagen de producto como referencia para el macro y la escena de heladería.",
       "assets": {
         "el-frio-tiene-textura-reinicio-v01.webp": {
@@ -35,11 +35,11 @@
       "id": "002-una-prenda-tres-vidas",
       "filePrefix": "una-prenda-tres-vidas",
       "name": "Una prenda. Tres vidas.",
-      "subtitle": "Indumentaria · Proyecto personal · En desarrollo",
+      "subtitle": "Indumentaria · Proyecto personal · Finalizado",
       "summary": "La misma campera durante un viaje, una pausa de trabajo y una salida de noche. Tres escenas para explorar su versatilidad y sostener una identidad visual al cambiar de entorno.",
       "concept": "Busqué mostrar una prenda a través de las situaciones en las que podría usarse.",
       "decision": "Mantuve al personaje y el conjunto como punto de partida. Cambié la luz, el encuadre y el escenario para darle un carácter propio a cada momento.",
-      "pending": "Serie de tres imágenes en desarrollo. Estoy refinando la continuidad de los detalles de la campera.",
+      "pending": "Serie de tres imágenes: viaje, trabajo y noche. Aprobada y publicada como versión final.",
       "origin": "Seleccioné seis referencias y generé las escenas con IA. La primera imagen también sirvió como guía visual para las siguientes.",
       "assets": {
         "una-prenda-tres-vidas-viaje-v01.webp": {

@@ -156,3 +156,7 @@ Lighting: directional diffused window light from upper left, enough side contras
 ## Retiro de pruebas anteriores · 22 de octubre de 2026
 
 Por indicación de Matías, se quitaron los tres derivados anteriores (`v02`, `detalle-v01`, `contexto-v01`) del repositorio y de la carpeta publicada. Sus registros de producción se conservan como historial; la única imagen vigente es `el-frio-tiene-textura-reinicio-v01.webp`.
+
+## Aprobación · 4 de noviembre de 2026
+
+Matías aprobó la serie completa (`el-frio-tiene-textura-reinicio-v01.webp`, `el-frio-tiene-textura-macro-v01.webp`, `el-frio-tiene-textura-contexto-v01.webp`) como versión final. `data/projects.json` pasa de «En desarrollo» a «Finalizado». Pendiente de registro: `macro-v01.webp` y la versión vigente de `contexto-v01.webp` no tienen una entrada de producción propia en este archivo — el reinicio del 22 de octubre solo documentó la toma de producto. No se reconstruye retroactivamente; se deja constancia para quien retome este registro.
