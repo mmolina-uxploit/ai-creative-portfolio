@@ -59,3 +59,31 @@ axe-core 4.x corrido contra el HTML servido localmente (reglas WCAG 2.0 A/AA, 2.
 ### Revisado y sin cambios
 
 Jerarquía de encabezados, landmarks (`header`, `nav` × 3 con nombres distintos, `main`, `section` con `aria-labelledby`, `footer`), salto al contenido, trampa de foco manual del visor (necesaria: `<dialog>` nativo no atrapa el foco de forma consistente entre navegadores), doble desactivación de movimiento (CSS `prefers-reduced-motion` + control persistente), enlaces externos anunciados, atributos `alt` descriptivos y sin relleno. Sin cambios de color: el contraste medido en la auditoría de octubre sigue vigente, la incorporación de Fraunces no tocó la paleta.
+
+## Rebrand de paleta y tipografía · 4 de noviembre de 2026
+
+A pedido de Matías: identidad "off-white/Supreme pero minimalista". Cambia la paleta completa, la tipografía de encabezados y se agrega un tratamiento de etiqueta industrial entre comillas en metadatos. Reemplaza, no extiende, la paleta cálida y la tipografía Fraunces incorporadas el 3 y 4 de noviembre.
+
+### Paleta nueva
+
+`--bg:#f3f1ea` (off-white/hueso), `--surface:#e9e5d8`, `--ink:#0d0d0c` (negro cálido, ya no verde-negro), `--muted:#57544a`, `--line:#d6d1c2`, `--accent:#c2410c` (naranja de seguridad oscurecido para uso en texto), `--accent-vivid:#ff5a00` (naranja de seguridad puro, solo para superficies decorativas: punto de marca, fondo de `status-pill`, favicon).
+
+El naranja de seguridad auténtico (`#ff5a00`/`#ff6600`) da 2.6–2.8:1 contra el fondo nuevo: no alcanza ni el mínimo de texto grande (3:1). Por eso el token de texto (`--accent`) usa una versión más oscurecida (`#c2410c`, 4.58:1 contra `--bg`) y el tono puro queda reservado a superficies no textuales, donde no aplica un mínimo de contraste de texto.
+
+Medido sobre la página renderizada (`getComputedStyle`, no estimado): texto `--ink` sobre `--bg` 17.20:1; `--muted` sobre `--bg` 6.70:1; `--accent` sobre `--bg` (enlaces, `.inline-link`, hover de nav) 4.58:1; `--ink` sobre `--accent-vivid` (`.status-pill`) 6.22:1; texto del botón blanco sobre `--ink` 19.44:1.
+
+### Velo del hero, retomado
+
+El cambio de `--bg` obligaba a remedir el velo sobre la foto del hero (ver entrada del 4 de noviembre, sección hero). Con el fondo nuevo, el alpha que antes alcanzaba 4.5:1 para el texto `--muted` caía a 4.0:1. Se subió el alpha de la zona plana de 0.68 a 0.78. Remedido por muestreo de píxeles en filas sin glifos sobre la página real: `--muted` 4.71–4.75:1, `--ink` ~12:1. El span en `--accent` del h1 ("Con dirección.") da 3.2–3.25:1 contra el peor punto de la foto bajo el velo: pasa el mínimo de 3:1 para texto grande en negrita, pero con menos margen que el resto — es el único valor de esta paleta que queda cerca del piso, no por elección sino porque el techo teórico de `--accent` contra `--bg` puro es 4.58:1 y ya se usa casi todo ese margen.
+
+### Tipografía
+
+Fraunces (variable, 300–700) se reemplaza por Archivo Black (un solo corte, peso 400), autohospedada en `site/assets/vendor/fonts/archivo-black-latin.woff2` (18 KB, más liviana que el variable anterior de 67 KB). Encabezados en mayúsculas. Se corrigieron todos los `font-weight:500/600` que apuntaban a elementos `h1/h2/h3` a `400`: Archivo Black es un solo corte, pedirle otro peso fuerza una negrita sintética del navegador en vez de usar el diseño real de la fuente. El letter-spacing de cada encabezado grande se aflojó de negativo fuerte a negativo leve o cero: estaba afinado para el ajuste de Fraunces (serif), no para una grotesca ya ancha de por sí.
+
+### Etiquetas industriales
+
+`.status-pill`, el rol de cada imagen (`.creative figcaption span:first-child`) y `.play-mark` llevan comillas, versalitas y monoespaciada vía `::before`/`::after{content:'"'}` y `text-transform:uppercase` — sin tocar el HTML ni `render-site.mjs`, puramente CSS. Las comillas generadas quedan expuestas al árbol de accesibilidad en los navegadores actuales; se verificó que no introduce ninguna violación (axe-core, página completa: 0).
+
+### Verificación
+
+axe-core (WCAG 2.0/2.1 A/AA): 0 violaciones, antes y después de agregar el favicon actualizado. Capturas de escritorio, proyecto expandido, sección "Sobre mi trabajo" y mobile (390 px) revisadas visualmente. Build de `render-site.mjs` reconstruido y servido sin errores de consola.
