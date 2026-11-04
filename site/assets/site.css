@@ -31,5 +31,10 @@ a,button,summary{scroll-margin-block:24px}a:focus-visible,button:focus-visible,s
 /* Hero photo: stacked banner on narrow screens (no text overlap risk); full-bleed background with a scrim once there is room for both. */
 @media(min-width:768px){
 .hero-media{position:absolute;inset:0;margin-top:0;border-radius:0;aspect-ratio:auto}
-.hero-media::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,var(--bg) 0%,var(--bg) 40%,#fafaf8d9 54%,#fafaf84d 70%,#fafaf800 88%)}
+.hero-media::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#fafaf8ad 0%,#fafaf8ad 42%,#fafaf859 56%,#fafaf81a 72%,#fafaf800 90%)}
 }
+
+/* Volver arriba: aparece una vez que el hero sale de vista (ver site.js). */
+.back-to-top{position:fixed;right:20px;bottom:20px;z-index:30;display:grid;place-items:center;width:48px;height:48px;border-radius:50%;background:var(--ink);color:#fff;font-size:20px;line-height:1;box-shadow:0 2px 10px #2330244d}
+.back-to-top:hover{background:#3c463c}
+@media(prefers-reduced-motion:no-preference){.back-to-top{transition:opacity .2s,transform .2s}}
